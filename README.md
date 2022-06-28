@@ -137,3 +137,6 @@ sumber grid Search CV link text
 ![Irvan Sikajudin - PPT Final Project_page-0017](https://user-images.githubusercontent.com/41347634/176099139-06c47e72-359c-4651-9194-a268aa4ec51d.jpg)
 ![Irvan Sikajudin - PPT Final Project_page-0018](https://user-images.githubusercontent.com/41347634/176099142-6f82eb25-cfa1-4313-a0f9-86604bac3c57.jpg)
 ![Irvan Sikajudin - PPT Final Project_page-0019](https://user-images.githubusercontent.com/41347634/176099144-31db80c7-d2eb-4805-8018-8aa595adc042.jpg)
+
+
+NOTE : GridSearchCV tidak memerlukan pembagian dataset menjadi train-validasi set, sumber : <href>https://www.researchgate.net/post/Should_I_first_split_the_data_into_train_and_validation_sets_and_then_use_GridSearchCV_on_the_training_set_followed_by_K_Fold_CV_on_my_training_set</href>
