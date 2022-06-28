@@ -140,8 +140,7 @@ sumber grid Search CV link text
 
 
 NOTE : GridSearchCV tidak memerlukan pembagian dataset menjadi train-validasi set, sumber :</br> <a href="https://www.researchgate.net/post/Should_I_first_split_the_data_into_train_and_validation_sets_and_then_use_GridSearchCV_on_the_training_set_followed_by_K_Fold_CV_on_my_training_set">Sumber 1</a></br>
-
-<a href="https://www.quora.com/In-scikit-learn-in-GridSearchCV-can-I-manually-set-validation-set-examples-for-cross-validation">Sumber 2 : lebih detail lihat gambar dibawah.</a></br>
+<a href="https://www.quora.com/In-scikit-learn-in-GridSearchCV-can-I-manually-set-validation-set-examples-for-cross-validation">Sumber 2 : lebih detail lihat gambar dibawah.</a></br></br>
 ![image](https://user-images.githubusercontent.com/41347634/176102262-867208f8-0adf-479e-aad3-c0ab9c93a128.png)
 
 
