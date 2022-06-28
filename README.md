@@ -1,9 +1,8 @@
 
 ##<h2>Title</h2>
-Bank Marketing Campaign - Predict Term Deposit (deposito).
+Bank Marketing Campaign - Predict Term Deposit (deposito).</br>
 
-selamat datang di project saya, saya Irvan Sikajudin, seorang Data Science enthusiast, project ini berisikan beberapa proses, mulai dari Data Understanding, EDA, Deep dive EDA, Data Prepocessing, Split Data to Train data and Test Data kemudian melatih beberapa model yang dianggap cocok dgn data yang ada,  yakni model K-NN classification, Random Forest, dan Decession Tree.
-
+selamat datang di project saya, saya Irvan Sikajudin, seorang Data Science enthusiast, project ini berisikan beberapa proses, mulai dari Data Understanding, EDA, Deep dive EDA, Data Prepocessing, Split Data to Train data and Test Data kemudian melatih beberapa model yang dianggap cocok dgn data yang ada, menggunakan base model K-NN classification, Random Forest, dan Decession Tree., dan mentuning Random Forest.
 ##<h2>Context and Source</h2>
 
 <h2>Context</h2>
@@ -112,25 +111,7 @@ The dataset contains order-related columns, look at below for more information a
 *   Reward Users for Engagement
 
 
+![image](https://user-images.githubusercontent.com/41347634/176096942-23eaf3cc-cb8e-4d22-9507-addb1ba441b7.png)
 
-#Kesimpulan</br>
-*   model terbaik K-NN dan Random Forest, karena dua model ini berhasil memprediksi yang benar-benar akan term deposit paling tinggi serta menghindari model Decision Tree yang biasanya cendrung overfit</br>
-
-*   sehingga dengan model yang lebih peka terhadap orang yang akan melakukan term deposit maka kampanye marketing dapat lebih maksimal dilakukan  dengan mendekati orang-orang yang memiliki kriteria atau cendrung melakukan term deposit dgn berbagai metode marketing yang sesuai.</br> 
-
-*   namun untuk perhitungan yang lebih cepat sebaiknya saya melakukan data scaling dan agar beban perhitungan lebih murah.</br>
-
-*   Pada beberapa literatur dijelaskan bahwa outliers akan berpengaruh pada klasifikasi, dengan mengolah outlier(dihapus/metode lainnya) akan meningkatkan akurasi dari model klasifikasi algoritme kNN, namun syangnya penulis belum mampu untuk menerapkan metode tersbut, untuk metode penghapusan outlier penulis rasa kurang tepat dilakukan karena dataset yg digunakan akan berkurang sangat bnyak nantinya.
-
-
-
-# Rekomendasi untuk Marketing Dept
-
-demi tercapatinya peningkatan pelanggan yg melakukan term deposit, maka pertimbangkan beberapa hal sebagai berikut :</br>
-*   Pertimbangkan untuk malakukan kampanye pada usia 30 an.
-*   Pertimbangkan untuk malakukan kampanye pada pasangan yang tidak bercerai.
-*   Pertimbangkan untuk melakukan kampanye pada pelanggan yang tidak memiliki Loans(Pinjaman) serta menghindari pelanggan yg memiliki pinjaman.</br>
-*   Pertimbangkan untuk melihat tingkat saldo pada setiap profesi, usahakan untuk lebih banyak mendekati pelanggan yg bekerja di rana management.</br>
-*   Tidak disarankan untuk campaign (menghubungi) pelanggan terlalu sering, karena semakin banyak menghubungi(melakukan kampanye/iklan) kepada pelanggan maka kesempatan utk pelanggan tersebut melakukan term deposit semakin mengecil.
 
 
