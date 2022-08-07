@@ -2,7 +2,7 @@
 ##<h2>Title</h2>
 Bank Marketing Campaign - Predict Term Deposit (deposito).</br>
 
-selamat datang di project saya, saya Irvan Sikajudin, seorang Data Science enthusiast, project ini berisikan beberapa proses, mulai dari Data Understanding, EDA, Deep dive EDA, Data Prepocessing, Split Data to Train data and Test Data kemudian melatih beberapa model yang dianggap cocok dgn data yang ada, menggunakan base model K-NN classification, Random Forest, dan Decession Tree., dan mentuning Random Forest.
+selamat datang di project saya, saya Irvan Sikajudin, seorang Data Science enthusiast, project ini berisikan beberapa proses, mulai dari Data Understanding, EDA, Deep dive EDA, Data Prepocessing, Split Data to Train data and Test Data kemudian melatih beberapa model yang dianggap cocok dgn data yang ada.
 ##<h2>Context and Source</h2>
 
 <h2>Context</h2>
