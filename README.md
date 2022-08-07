@@ -112,32 +112,11 @@ The dataset contains order-related columns, look at below for more information a
 
 
 ![image](https://user-images.githubusercontent.com/41347634/176096942-23eaf3cc-cb8e-4d22-9507-addb1ba441b7.png)
-![Irvan Sikajudin - PPT Final Project_page-0002](https://user-images.githubusercontent.com/41347634/176099065-5936f913-538e-465e-9296-f69f918464d7.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0003](https://user-images.githubusercontent.com/41347634/176099072-39c4e4d8-45aa-4c31-a440-723dc9364804.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0004](https://user-images.githubusercontent.com/41347634/176099076-0579c96a-f1a4-43f3-93b8-e379bf45b79d.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0005](https://user-images.githubusercontent.com/41347634/176099081-a6793e8b-d335-4514-bdd5-f63a5bbe007d.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0006](https://user-images.githubusercontent.com/41347634/176099086-b44f826d-d4da-4571-bc0b-d891dc346932.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0007](https://user-images.githubusercontent.com/41347634/176099091-3d58732e-b2a7-4ca7-9408-6df3b2e1e872.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0008](https://user-images.githubusercontent.com/41347634/176099094-7cc5ae93-34b8-4334-b141-86587c11c444.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0009](https://user-images.githubusercontent.com/41347634/176099097-3c7678d5-d5bd-4138-b872-f2c841af2f7a.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0010](https://user-images.githubusercontent.com/41347634/176099104-4f5d2657-d1d8-46c4-9f9d-f3d71ccc659e.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0011](https://user-images.githubusercontent.com/41347634/176099106-c742b997-0c43-41b3-bc0d-dde61eff697c.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0012](https://user-images.githubusercontent.com/41347634/176099109-33914920-e7e9-4ff8-8e95-102b7b612976.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0013](https://user-images.githubusercontent.com/41347634/176099113-d1475d86-bb20-44f7-83f5-253f5c278609.jpg)
-
 
 solusi ketika ketika tidak melakukan pemisahan data menjadi Train-Validation-Test Dataset adalah dengan melakukan Cross Validation, dimana melakukan validation tanpa perlu memerlukan validation set terpisah. dataset tetap dibagi menjadi train dan test set, cross validation dilakukan pada train set, GridSearchCV & RandomSearchCV, saya menggunakan 5 sebagai K-Fold cros validation, terlebih lagi dataset yg saya gunakan tergolong tidak besar(tidak sampai jutaan), maka dari itu penggunaan cross validation masih dapat digunakan karena dataset saya kecil ukurannya, jika digunakan pada dataset yg jutaan akan memakan waktu yg sangat lama dan tidak bijak digunakan pada dataset besar. jika dataset besar hingga jutaan disarankan untuk menggunakan skema hyperparametertuning yg biasa (Train-validation-Test)
 Hyperparametertuning untuk menghindari overfit
 
 sumber grid Search CV link text
-
-![Irvan Sikajudin - PPT Final Project_page-0014](https://user-images.githubusercontent.com/41347634/176099118-ca164c5d-db8a-41b5-844a-3e8f47a8087e.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0015](https://user-images.githubusercontent.com/41347634/176099129-cbd263a5-5d99-447d-a652-3fe95172bd93.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0016](https://user-images.githubusercontent.com/41347634/176099135-eaf17377-9cc3-4d5c-983c-272a89dd1105.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0017](https://user-images.githubusercontent.com/41347634/176099139-06c47e72-359c-4651-9194-a268aa4ec51d.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0018](https://user-images.githubusercontent.com/41347634/176099142-6f82eb25-cfa1-4313-a0f9-86604bac3c57.jpg)
-![Irvan Sikajudin - PPT Final Project_page-0019](https://user-images.githubusercontent.com/41347634/176099144-31db80c7-d2eb-4805-8018-8aa595adc042.jpg)
-
 
 NOTE : GridSearchCV tidak memerlukan pembagian dataset menjadi train-validasi set, sumber :</br> <a href="https://www.researchgate.net/post/Should_I_first_split_the_data_into_train_and_validation_sets_and_then_use_GridSearchCV_on_the_training_set_followed_by_K_Fold_CV_on_my_training_set">Sumber 1</a></br>
 <a href="https://www.quora.com/In-scikit-learn-in-GridSearchCV-can-I-manually-set-validation-set-examples-for-cross-validation">Sumber 2 : lebih detail lihat gambar dibawah.</a></br></br>
